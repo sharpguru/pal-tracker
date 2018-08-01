@@ -35,11 +35,6 @@ public class InMemoryTimeEntryRepository implements TimeEntryRepository {
 
     }
 
-    @Override
-    public List<TimeEntry> find() {
-//        return new ArrayList<>(timeEntries.values());
-        return null;
-    }
 
     @Override
     public TimeEntry update(long id, TimeEntry timeEntry) {
